@@ -1,8 +1,15 @@
-.fixed-bg{
-	background-image: url(gotmap.jpg);
-	min-height: 500px;
+home.html{
+	background: url(gotmap.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
+	background-attachment: fixed; 
+    background-size: cover;
 }
+
+h1{
+	color: white;
+	text-align: center;
+	font-style: oblique;
+	font-size: 300px;
+}
+

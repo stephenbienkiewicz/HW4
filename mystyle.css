@@ -1,0 +1,8 @@
+.fixed-bg{
+	background-image: url(gotmap.jpg);
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}

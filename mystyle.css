@@ -6,8 +6,15 @@ html{
     background-size: cover;
 }
 
+h1{
+	text-align: center;
+	color: white;
+	font-family: verdana;
+	font-size: 60px;
+}
+
 div.fb{
-	content: url (fb.png);
+	content: url(fb.png);
 	width: 2%;
 	height: 25px;
 	position: fixed;
@@ -27,14 +34,6 @@ div.yt{
 	position: fixed;
 }
 
-
-h1{
-	text-align: center;
-	color: white;
-	font-family: verdana;
-	font-size: 60px;
-}
-
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -46,12 +45,17 @@ ul{
 
 li a{
 	display: block;
-	color: white;
+	color: black;
 	padding: 8px 0 8px 16px;
 	text-decoration: none;
 }
 
-li a:hover{
+li a.active{
+	background-color: blue;
+	color: white;
+}
+
+li a:hover:not(.active){
 	background-color: hotpink;
 	color:white;
 }

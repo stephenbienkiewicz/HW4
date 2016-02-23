@@ -7,9 +7,46 @@ html{
 }
 
 h1{
-	color: white;
 	text-align: center;
+	color: white;
 	font-family: verdana;
 	font-size: 60px;
 }
 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: green;
+	position: fixed;
+}
+
+li a{
+	display: block;
+	color: black;
+	padding: 8px 0 8px 16px;
+	text-decoration: none;
+}
+
+li a.active{
+	background-color: blue;
+	color: white;
+}
+
+li a:hover:not(.active){
+	background-color: hotpink;
+	color:white;
+}
+
+.button {
+    background-color: red;
+    border: dashed;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+}

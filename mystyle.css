@@ -1,4 +1,4 @@
-home.html{
+html{
 	background: url(gotmap.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -6,10 +6,53 @@ home.html{
     background-size: cover;
 }
 
+div.fb{
+	content: url (fb.png);
+	width: 2%;
+	height: 25px;
+	position: fixed;
+}
+
+div.tw{
+	content: url(tw.png);
+	width: 2%;
+	height: 25px;
+	position: fixed;
+}
+
+div.yt{
+	content: url(yt.png);
+	width: 2%;
+	height: 25px;
+	position: fixed;
+}
+
+
 h1{
-	color: white;
 	text-align: center;
-	font-style: oblique;
-	font-size: 300px;
+	color: white;
+	font-family: verdana;
+	font-size: 60px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: green;
+	position: fixed;
+}
+
+li a{
+	display: block;
+	color: white;
+	padding: 8px 0 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: hotpink;
+	color:white;
 }
 

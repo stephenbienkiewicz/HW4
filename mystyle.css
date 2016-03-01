@@ -12,35 +12,24 @@ h1{
 	font-size: 60px;
 }
 
+img {
+	height: 25px;
+	top: 0;
+    left: 0;
+	position: fixed;
+}
+
 h2{
 	color: white;
 	font-style: oblique;
+	position: absolute;
+	top: 50%;
+	left: 0;
 }
 
 h4{
 	color: white;
 	font-style: oblique;
-}
-
-div.fb{
-	content: url(fb.png);
-	width: 2%;
-	height: 25px;
-	position: fixed;
-}
-
-div.tw{
-	content: url(tw.png);
-	width: 2%;
-	height: 25px;
-	position: fixed;
-}
-
-div.yt{
-	content: url(yt.png);
-	width: 2%;
-	height: 25px;
-	position: fixed;
 }
 
 ul{
@@ -70,19 +59,25 @@ li a:hover:not(.active){
 }
 
 input[type="text"]{
-        display: inline-block;
-        width: 300px;
-        padding: 8px 0 8px 16px;
-        background-color: green;
-        color: white;
+	display: inline-block;
+	width: 300px;
+	padding: 8px 0 8px 16px;
+	background-color: green;
+	color: white;
+	position: absolute;
+	top: 60%;
+	left: 0;
 }
 
 input[type="submit"]{
-        display: inline-block;
-        width: 150px;
-        padding: 8px 0 8px 16px;
-        background-color: green;
-        color: white;
+	display: inline-block;
+	width: 150px;
+	padding: 8px 0 8px 16px;
+	background-color: green;
+	color: white;
+	position: absolute;
+	top: 60%;
+	left: 25.2%;
 }
 
 input[type="submit"]:hover{
